@@ -1,18 +1,32 @@
 function Skills() {
-  const skills = ["React", "Node.js", "MongoDB", "Express", "Bootstrap","CSS", "JavaScript"];
+  const skills = [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "Bootstrap",
+    "CSS",
+    "Chrome Dev Tools",
+    "PostMan"
+  ];
 
   return (
-    <div id="skills" className="container py-5">
-      <h2 className="text-center mb-4 fw-bold">Skills</h2>
+    <section id="skills" className="container py-5">
+      <div className="section-intro">
+        <span className="section-label">Skills</span>
+       
+      </div>
 
-      <div className="text-center">
-        {skills.map((skill, i) => (
-          <span key={i} className="badge bg-dark m-2 p-3 fs-6">
+      <div className="skills-grid">
+        {skills.map((skill) => (
+          <span key={skill} className="skill-pill">
             {skill}
           </span>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
-export default Skills
+
+export default Skills;

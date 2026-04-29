@@ -1,39 +1,44 @@
 function Hero() {
+  const highlights = ["MERN Stack", "Responsive Interfaces", "REST API Integration"];
+
   return (
-    <div className="container py-5">
-      <div className="row align-items-center">
+    <section className="container py-5">
+      <div className="hero-copy hero-copy-full">
+        <span className="hero-kicker">Available for Full-Stack Developer roles</span>
+        <h1>Vijay Kumar Reddy</h1>
+        <p className="hero-lead">
+          MERN stack developer building practical web applications with clean,
+          responsive interfaces.
+        </p>
+        <p className="hero-text">
+          I focus on frontend responsiveness, backend reliability, and project delivery
+          that feels professional .
+        </p>
 
-        {/* LEFT */}
-        <div className="col-md-6 text-center text-md-start">
-          <h1 className="fw-bold display-5">
-            Hi, I'm Vijay Kumar Reddy 👋
-          </h1>
-
-          <p className="lead text-muted">
-            MERN Stack Developer building modern web apps
-          </p>
-
-          <div className="mt-3">
-            <a href="/resume.pdf" className="btn btn-dark me-2">
-              Download Resume
-            </a>
-            <a href="#projects" className="btn btn-outline-dark">
-              View Projects
-            </a>
-          </div>
+        <div className="hero-badges">
+          {highlights.map((item) => (
+            <span key={item} className="hero-badge">
+              {item}
+            </span>
+          ))}
         </div>
 
-        {/* RIGHT (Image) */}
-        <div className="col-md-6 text-center mt-4 mt-md-0">
-          <img
-            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-            className="img-fluid rounded shadow"
-            alt="developer"
-          />
+        <div className="hero-actions">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-dark"
+          >
+            View Resume
+          </a>
+          <a href="/resume.pdf" download className="btn btn-outline-dark">
+            Download Resume
+          </a>
         </div>
-
       </div>
-    </div>
+    </section>
   );
 }
+
 export default Hero;

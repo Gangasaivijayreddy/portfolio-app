@@ -7,10 +7,10 @@
     "node": "20.x"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite --configLoader native",
+    "build": "vite build --configLoader native",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --configLoader native"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",

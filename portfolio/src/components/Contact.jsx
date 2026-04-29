@@ -1,16 +1,15 @@
 function Contact() {
   return (
-    <div id="contact" className="container py-5 text-center">
-      <h2 className="fw-bold mb-3">Contact Me</h2>
-
-      <p className="text-muted">Let's build something together 🚀</p>
-
-      <div className="mt-3">
-        <p>vijayreddy7330@gmail.com</p>
-        <p>7330974815</p>
-        
+    <section id="contact" className="container py-5">
+      <div className="contact-card">
+        <h2 className="contact-title">Contact</h2>
+        <div className="contact-details">
+          <a href="mailto:vijayreddy7330@gmail.com">vijayreddy7330@gmail.com</a>
+          <a href="tel:7330974815">7330974815</a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
+
 export default Contact;
