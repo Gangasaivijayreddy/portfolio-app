@@ -5,10 +5,16 @@ function Skills() {
     "Node.js",
     "Express",
     "MongoDB",
+    "SQL",
     "Bootstrap",
     "CSS",
     "Chrome Dev Tools",
-    "PostMan"
+    "PostMan",
+    "PLC",
+    "HMI",
+    "BASIC SCADA",
+    "VFD",
+    "RLC"
   ];
 
   return (
