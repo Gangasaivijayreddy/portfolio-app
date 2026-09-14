@@ -1,19 +1,15 @@
 function Hero() {
-  const highlights = ["MERN Stack", "Responsive Interfaces", "REST API Integration"];
+  const highlights = ["MERN Stack", "Responsive Interfaces", "REST API Integration","Industraial Automation "];
 
   return (
     <section className="container py-5">
       <div className="hero-copy hero-copy-full">
-        <span className="hero-kicker">Available for Full-Stack Developer roles</span>
+        <span className="hero-kicker">Available for Industrial Automation Roles</span>
         <h1>Vijay Kumar Reddy</h1>
         <p className="hero-lead">
-          MERN stack developer building practical web applications with clean,
-          responsive interfaces.
+          Ready to work in Industrial Automation(plc,Scada,Hmi,vfd,rlc,robotics) 
         </p>
-        <p className="hero-text">
-          I focus on frontend responsiveness, backend reliability, and project delivery
-          that feels professional .
-        </p>
+       
 
         <div className="hero-badges">
           {highlights.map((item) => (
