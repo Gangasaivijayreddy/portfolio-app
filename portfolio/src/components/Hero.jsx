@@ -1,23 +1,23 @@
 function Hero() {
-  const highlights = ["MERN Stack", "Responsive Interfaces", "REST API Integration","Industraial Automation "];
+ {/* const highlights = ["MERN Stack", "Responsive Interfaces", "REST API Integration","Industraial Automation "];*/}
 
   return (
     <section className="container py-5">
       <div className="hero-copy hero-copy-full">
-        <span className="hero-kicker">Available for Industrial Automation Roles</span>
-        <h1>Vijay Kumar Reddy</h1>
+       
+        <h1>Vijay Kumar Reddy.G</h1>
         <p className="hero-lead">
           Ready to work in Industrial Automation(plc,Scada,Hmi,vfd,rlc,robotics) 
         </p>
        
 
-        <div className="hero-badges">
+        {/*<div className="hero-badges">
           {highlights.map((item) => (
             <span key={item} className="hero-badge">
               {item}
             </span>
           ))}
-        </div>
+        </div>*/}
 
         <div className="hero-actions">
           <a
