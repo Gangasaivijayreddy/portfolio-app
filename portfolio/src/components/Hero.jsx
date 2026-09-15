@@ -21,14 +21,14 @@ function Hero() {
 
         <div className="hero-actions">
           <a
-            href="/resume.pdf"
+            href="/Industrial Automation Resume.pdf"
             target="_blank"
             rel="noreferrer"
             className="btn btn-dark"
           >
             View Resume
           </a>
-          <a href="/resume.pdf" download className="btn btn-outline-dark">
+          <a href="/Industrial Automation Resume.pdf" download className="btn btn-outline-dark">
             Download Resume
           </a>
         </div>
