@@ -6,9 +6,7 @@ function Hero() {
       <div className="hero-copy hero-copy-full">
        
         <h1>Vijay Kumar Reddy.G</h1>
-        <p className="hero-lead">
-          Ready to work in Industrial Automation(plc,Scada,Hmi,vfd,rlc,robotics) 
-        </p>
+       
        
 
         {/*<div className="hero-badges">
